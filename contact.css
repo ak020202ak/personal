@@ -1,0 +1,36 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#contactForm{
+  height: 100vh;
+  background-color:#020412;
+
+}
+#contactForm h1{
+  font-size: 60px;
+  color: #17D7A0;
+  padding-top: 20px;
+}
+#contactForm p{
+  color: #DFD8CA;
+}
+.contactf input{
+  background: transparent;
+  color: #DFD8CA;
+  font-size: 16px;
+}
+form{
+  max-width: 350px;
+
+}
+form input{
+  box-shadow: none;
+  box-sizing: border-box;
+  border:2px solid #17D7A0;
+  padding: 12px 10px;
+}
+form label{
+  color: #DFD8CA;
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.secondPage {
+  height: 120vh;
+  background: #020412;
+}
+
+h3 {
+  color: #17D7A0;
+}
+
+#header {
+  height: 100vh;
+  background: #020412;
+}
+
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.logo {
+  margin-top: 30px;
+  width: 100px;
+}
+
+.textBox {
+  padding-top: 30px;
+  font-size: 17px;
+  letter-spacing: 0.9px;
+  line-height: 26px;
+}
+
+.textBox h1 {
+  font-size: 70px;
+  line-height: 160px;
+  color: #17D7A0;
+  font-style: serif:italic;
+}
+
+.ptag {
+  color: #DFD8CA;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #17D7A0;
+  background-color: #020412;
+  width: 5%;
+}
+
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background-color: #17D7A0;
+  transition: .8s;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #020412;
+}
+
+#menuBtn {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#meImg {
+  width: 100px;
+  height: 159px;
+  margin-right: 10px;
+}
+
+.headLine {
+  padding-top: 40px;
+}
+
+.secondPage h1 {
+  color: #DFD8CA;
+  font-size: 36px;
+  font-family: serif;
+}
+
+#para {
+  color: #DFD8CA;
+}
+
+.image1 {
+  width: 100px;
+  height: 100px;
+}
+
+.ptag {
+  font-size: 25px;
+}
+
+#tablecss {
+  padding-top: 150px;
+}
+
+#row1 {
+  padding-top: 10px;
+}
+
+.thirdPage {
+  height: 30vh;
+  background: #a2efd9;
+  padding-top: 40px;
+}
+
+.thirdPage h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #095640;
+  padding-top: 30px;
+}
+}
+.thirdPage h1{
+  color: #095640;
+}
+.thirdPage button{
+  padding:8px 15px;
+  background: transparent;
+  outline: none;
+  font-weight: bold;
+  border: 2px solid #17D7A0;
+  color:#095640;
+}

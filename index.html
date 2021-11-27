@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="header">
+    <div class="container">
+      <img src="images/logo01.jpeg" class="logo">
+
+    </div>
+    <center>
+      <div class="textBox">
+        <h1> <span class="auto"></span></h1>
+      </div>
+      <div class="">
+        <p class="ptag">
+          <em>
+            <i>
+              You can reach out to me if you need any help in making a <br> website for you or your business.
+            </i>
+          </em>
+
+        </p>
+        <br>
+        <hr>
+      </div>
+    </center>
+  </section>
+
+  <nav id="sideNav">
+    <ul>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">WORK</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <img src="images/menu5.jpeg" id="menuBtn">
+  <center>
+    <section>
+      <div class="secondPage">
+        <h1 class="headLine">𝒲𝒽𝒶𝓉 ℐ 𝒸𝒶𝓃 𝒹𝑜 𝒻𝑜𝓇 𝓎𝑜𝓊</h1>
+        <table id="tablecss">
+          <tr>
+            <td>
+              <p>
+              <h3 id="content">Design what you want.</h3>
+              <div id="row1">
+                <i id="para">
+                  I like to keep it simple. My goals are to focus on <br> typography, content and conveying the message <br> that you want to send.
+                </i>
+              </div>
+              </p>
+            </td>
+            <td>
+              <img src="images/me01.jpeg" class="image1" />
+
+            </td>
+          </tr>
+        </table>
+        <table id="tablecss">
+          <tr>
+            <td>
+              <img src="images/me02.jpeg" class="image1" />
+            </td>
+            <td>
+              <p>
+              <h3 id="content">Develop what you need.</h3>
+              <div id="row1">
+                <i id="para">
+                   I'm a developer, so I know how to create your <br>website to run across devices using the latest <br> technologies available.
+                </i>
+              </div>
+              </p>
+            </td>
+          </tr>
+        </table>
+
+
+      </div>
+
+    </section>
+
+  </center>
+
+  <center>
+
+    <section>
+      <div class="thirdPage">
+
+        <h1>Need My Help ?</h1>
+        <h3 >
+          If you have a project that you want to get started, think you need my help <br> with something or just fancy saying hey, then get in touch.
+        </h3>
+        <br />
+        <br />
+          <a href="contact.html"><button class="contact-me" >Contact Me</button></a>
+
+      </div>
+
+    </section>
+  </center>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto", {
+      strings: ["Hola . ", "I'm Ananthan."],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+  <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function() {
+      if (sideNav.style.right == "-250px") {
+        sideNav.style.right = "0";
+
+      } else {
+        sideNav.style.right = "-250px"
+      }
+    }
+  </script>
+</body>
+
+</html>
